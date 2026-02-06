@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B0A49B2F20B774004EB778 /* FinBossApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4802F20B603004EB778 /* FinBossApp.swift */; };
+		07B0A49E2F20B774004EB778 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4852F20B603004EB778 /* Transaction.swift */; };
+		07B0A49F2F20B774004EB778 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4872F20B603004EB778 /* HomeView.swift */; };
+		07B0A4A02F20B774004EB778 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4882F20B603004EB778 /* LoginView.swift */; };
+		07B0A4A12F20B774004EB778 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4892F20B603004EB778 /* RegisterView.swift */; };
+		07B0A4A22F20B774004EB778 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A48B2F20B603004EB778 /* AuthService.swift */; };
+		07B0A4A32F20B774004EB778 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A48C2F20B603004EB778 /* NetworkService.swift */; };
+		07B0A4A42F20B774004EB778 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A48D2F20B603004EB778 /* TransactionService.swift */; };
+		07B0A4A52F20B774004EB778 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A48F2F20B603004EB778 /* KeychainManager.swift */; };
+		07B0A4A62F20B774004EB778 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4912F20B603004EB778 /* HomeViewModel.swift */; };
+		07B0A4A72F20B774004EB778 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4922F20B603004EB778 /* LoginViewModel.swift */; };
+		07B0A4A82F20B774004EB778 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4932F20B603004EB778 /* RegisterViewModel.swift */; };
+		07B0A4A92F20B774004EB778 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4942F20B603004EB778 /* TransactionViewModel.swift */; };
+		07B0A4AA2F20B774004EB778 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0A4962F20B603004EB778 /* TransactionListView.swift */; };
+		07CC21D12F3450270010CE9E /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CC21D02F3450270010CE9E /* DependencyContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B0A4802F20B603004EB778 /* FinBossApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinBossApp.swift; sourceTree = "<group>"; };
+		07B0A4852F20B603004EB778 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		07B0A4872F20B603004EB778 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		07B0A4882F20B603004EB778 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		07B0A4892F20B603004EB778 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		07B0A48B2F20B603004EB778 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		07B0A48C2F20B603004EB778 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		07B0A48D2F20B603004EB778 /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		07B0A48F2F20B603004EB778 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		07B0A4912F20B603004EB778 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		07B0A4922F20B603004EB778 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		07B0A4932F20B603004EB778 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		07B0A4942F20B603004EB778 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		07B0A4962F20B603004EB778 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		07B0A4982F20B603004EB778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CC21D02F3450270010CE9E /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		7C78A1FF1D99F96900E4B547 /* FinBoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinBoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C78A1FC1D99F96900E4B547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B0A4812F20B603004EB778 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				07B0A4802F20B603004EB778 /* FinBossApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		07B0A4842F20B603004EB778 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				07CC21D02F3450270010CE9E /* DependencyContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		07B0A4862F20B603004EB778 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07B0A4852F20B603004EB778 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07B0A48A2F20B603004EB778 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				07B0A4872F20B603004EB778 /* HomeView.swift */,
+				07B0A4882F20B603004EB778 /* LoginView.swift */,
+				07B0A4892F20B603004EB778 /* RegisterView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		07B0A48E2F20B603004EB778 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				07B0A48B2F20B603004EB778 /* AuthService.swift */,
+				07B0A48C2F20B603004EB778 /* NetworkService.swift */,
+				07B0A48D2F20B603004EB778 /* TransactionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		07B0A4902F20B603004EB778 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				07B0A48F2F20B603004EB778 /* KeychainManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		07B0A4952F20B603004EB778 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				07B0A4912F20B603004EB778 /* HomeViewModel.swift */,
+				07B0A4922F20B603004EB778 /* LoginViewModel.swift */,
+				07B0A4932F20B603004EB778 /* RegisterViewModel.swift */,
+				07B0A4942F20B603004EB778 /* TransactionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		07B0A4972F20B603004EB778 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07B0A4962F20B603004EB778 /* TransactionListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07B0A4992F20B603004EB778 /* FinBoss */ = {
+			isa = PBXGroup;
+			children = (
+				07B0A4812F20B603004EB778 /* App */,
+				07B0A4842F20B603004EB778 /* DI */,
+				07B0A4862F20B603004EB778 /* Models */,
+				07B0A48A2F20B603004EB778 /* Screens */,
+				07B0A48E2F20B603004EB778 /* Services */,
+				07B0A4902F20B603004EB778 /* Utils */,
+				07B0A4952F20B603004EB778 /* ViewModels */,
+				07B0A4972F20B603004EB778 /* Views */,
+				07B0A4982F20B603004EB778 /* Info.plist */,
+			);
+			path = FinBoss;
+			sourceTree = "<group>";
+		};
+		7C78A1F31D99F96900E4B547 = {
+			isa = PBXGroup;
+			children = (
+				07B0A4992F20B603004EB778 /* FinBoss */,
+				7C78A2001D99F96900E4B547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C78A2001D99F96900E4B547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C78A1FF1D99F96900E4B547 /* FinBoss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C78A1FE1D99F96900E4B547 /* FinBoss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C78A2211D99F96900E4B547 /* Build configuration list for PBXNativeTarget "FinBoss" */;
+			buildPhases = (
+				7C78A1FB1D99F96900E4B547 /* Sources */,
+				7C78A1FC1D99F96900E4B547 /* Frameworks */,
+				7C78A1FD1D99F96900E4B547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinBoss;
+			productName = FinBoss;
+			productReference = 7C78A1FF1D99F96900E4B547 /* FinBoss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C78A1F41D99F96900E4B547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					7C78A1FE1D99F96900E4B547 = {
+						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7C78A1F71D99F96900E4B547 /* Build configuration list for PBXProject "FinBoss" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C78A1F31D99F96900E4B547;
+			packageReferences = (
+			);
+			productRefGroup = 7C78A2001D99F96900E4B547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C78A1FE1D99F96900E4B547 /* FinBoss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C78A1FD1D99F96900E4B547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C78A1FB1D99F96900E4B547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B0A49B2F20B774004EB778 /* FinBossApp.swift in Sources */,
+				07CC21D12F3450270010CE9E /* DependencyContainer.swift in Sources */,
+				07B0A49E2F20B774004EB778 /* Transaction.swift in Sources */,
+				07B0A49F2F20B774004EB778 /* HomeView.swift in Sources */,
+				07B0A4A02F20B774004EB778 /* LoginView.swift in Sources */,
+				07B0A4A12F20B774004EB778 /* RegisterView.swift in Sources */,
+				07B0A4A22F20B774004EB778 /* AuthService.swift in Sources */,
+				07B0A4A32F20B774004EB778 /* NetworkService.swift in Sources */,
+				07B0A4A42F20B774004EB778 /* TransactionService.swift in Sources */,
+				07B0A4A52F20B774004EB778 /* KeychainManager.swift in Sources */,
+				07B0A4A62F20B774004EB778 /* HomeViewModel.swift in Sources */,
+				07B0A4A72F20B774004EB778 /* LoginViewModel.swift in Sources */,
+				07B0A4A82F20B774004EB778 /* RegisterViewModel.swift in Sources */,
+				07B0A4A92F20B774004EB778 /* TransactionViewModel.swift in Sources */,
+				07B0A4AA2F20B774004EB778 /* TransactionListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7C78A1F81D99F96900E4B547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_DIALECT = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3XYXB939X6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_DIALECT = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		7C78A1F91D99F96900E4B547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_DIALECT = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3XYXB939X6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_DIALECT = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C78A2221D99F96900E4B547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_IDENTIFIER = com.preetanshumishra.FinBossiOS;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = FinBoss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.preetanshumishra.FinBossiOS;
+				PRODUCT_NAME = FinBoss;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7C78A2231D99F96900E4B547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_IDENTIFIER = com.preetanshumishra.FinBossiOS;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = FinBoss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.preetanshumishra.FinBossiOS;
+				PRODUCT_NAME = FinBoss;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C78A1F71D99F96900E4B547 /* Build configuration list for PBXProject "FinBoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C78A1F81D99F96900E4B547 /* Debug */,
+				7C78A1F91D99F96900E4B547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C78A2211D99F96900E4B547 /* Build configuration list for PBXNativeTarget "FinBoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C78A2221D99F96900E4B547 /* Debug */,
+				7C78A2231D99F96900E4B547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C78A1F41D99F96900E4B547 /* Project object */;
+}
