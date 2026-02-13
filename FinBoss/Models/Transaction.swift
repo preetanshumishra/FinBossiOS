@@ -1,11 +1,5 @@
 import Foundation
 
-struct ApiResponse<T: Codable>: Codable {
-    let status: String
-    let message: String?
-    let data: T?
-}
-
 struct Transaction: Identifiable, Codable {
     let id: String
     let userId: String
@@ -33,20 +27,4 @@ struct Transaction: Identifiable, Codable {
         case income
         case expense
     }
-}
-
-struct CreateTransactionRequest: Codable {
-    let type: String
-    let amount: Double
-    let category: String
-    let description: String?
-    let date: Date
-}
-
-struct UpdateTransactionRequest: Codable {
-    let type: String?
-    let amount: Double?
-    let category: String?
-    let description: String?
-    let date: Date?
 }

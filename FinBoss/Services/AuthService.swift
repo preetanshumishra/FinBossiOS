@@ -51,30 +51,3 @@ final class AuthService: ObservableObject {
         }
     }
 }
-
-// MARK: - Request/Response Models
-
-struct LoginRequest: Codable {
-    let email: String
-    let password: String
-}
-
-struct RegisterRequest: Codable {
-    let email: String
-    let password: String
-    let firstName: String
-    let lastName: String
-}
-
-struct AuthResponse: Codable {
-    let accessToken: String
-    let refreshToken: String
-    let user: User
-}
-
-struct User: Codable, Identifiable {
-    let id: String
-    let email: String
-    let firstName: String
-    let lastName: String
-}
