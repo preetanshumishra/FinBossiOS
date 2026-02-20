@@ -28,7 +28,7 @@ final class RegisterViewModel: ObservableObject {
                 firstName: firstName,
                 lastName: lastName
             )
-            authService.setAuthenticatedUser(response.user, token: response.accessToken)
+            authService.setAuthenticatedUser(response.user, accessToken: response.accessToken, refreshToken: response.refreshToken)
             errorMessage = nil
         } catch {
             errorMessage = error.localizedDescription
@@ -53,6 +53,11 @@ final class RegisterViewModel: ObservableObject {
 
         guard !password.isEmpty else {
             errorMessage = "Password is required"
+            return false
+        }
+
+        guard password.count >= 8 else {
+            errorMessage = "Password must be at least 8 characters"
             return false
         }
 

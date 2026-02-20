@@ -12,6 +12,8 @@ final class HomeViewModel: ObservableObject {
     }
 
     func logout() {
-        authService.clearAuthentication()
+        Task {
+            await authService.logout()
+        }
     }
 }

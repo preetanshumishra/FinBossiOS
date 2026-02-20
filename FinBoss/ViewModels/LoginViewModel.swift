@@ -21,7 +21,7 @@ final class LoginViewModel: ObservableObject {
 
         do {
             let response = try await authService.login(email: email, password: password)
-            authService.setAuthenticatedUser(response.user, token: response.accessToken)
+            authService.setAuthenticatedUser(response.user, accessToken: response.accessToken, refreshToken: response.refreshToken)
             errorMessage = nil
         } catch {
             errorMessage = error.localizedDescription
