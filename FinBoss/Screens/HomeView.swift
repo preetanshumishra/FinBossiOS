@@ -49,7 +49,7 @@ struct HomeView: View {
                         .foregroundColor(.primary)
                     }
 
-                    NavigationLink(destination: Text("Analytics")) {
+                    NavigationLink(destination: AnalyticsView(viewModel: DependencyContainer.shared.makeAnalyticsViewModel())) {
                         HStack {
                             Image(systemName: "chart.pie")
                             Text("Analytics")

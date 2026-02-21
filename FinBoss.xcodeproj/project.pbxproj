@@ -30,6 +30,10 @@
 		07DAED1C2F3FCFCF008E361E /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DAED142F3FCFCF008E361E /* RegisterRequest.swift */; };
 		07DAED1D2F3FCFCF008E361E /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DAED132F3FCFCF008E361E /* LoginRequest.swift */; };
 		07DAED202F3FD000008E361E /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DAED1E2F3FD000008E361E /* TransactionRow.swift */; };
+		AA002001AABB0002000AA002 /* CategoryBreakdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001001AABB0001000AA001 /* CategoryBreakdown.swift */; };
+		AA002002AABB0002000AA002 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001002AABB0001000AA001 /* AnalyticsService.swift */; };
+		AA002003AABB0002000AA002 /* AnalyticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001003AABB0001000AA001 /* AnalyticsViewModel.swift */; };
+		AA002004AABB0002000AA002 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001004AABB0001000AA001 /* AnalyticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,10 @@
 		07DAED162F3FCFCF008E361E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		07DAED1E2F3FD000008E361E /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		7C78A1FF1D99F96900E4B547 /* FinBoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinBoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA001001AABB0001000AA001 /* CategoryBreakdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBreakdown.swift; sourceTree = "<group>"; };
+		AA001002AABB0001000AA001 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		AA001003AABB0001000AA001 /* AnalyticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewModel.swift; sourceTree = "<group>"; };
+		AA001004AABB0001000AA001 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,7 @@
 				07DAED152F3FCFCF008E361E /* UpdateTransactionRequest.swift */,
 				07DAED162F3FCFCF008E361E /* User.swift */,
 				07B0A4852F20B603004EB778 /* Transaction.swift */,
+				AA001001AABB0001000AA001 /* CategoryBreakdown.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,6 +117,7 @@
 				07B0A4872F20B603004EB778 /* HomeView.swift */,
 				07B0A4882F20B603004EB778 /* LoginView.swift */,
 				07B0A4892F20B603004EB778 /* RegisterView.swift */,
+				AA001004AABB0001000AA001 /* AnalyticsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -118,6 +128,7 @@
 				07B0A48B2F20B603004EB778 /* AuthService.swift */,
 				07B0A48C2F20B603004EB778 /* NetworkService.swift */,
 				07B0A48D2F20B603004EB778 /* TransactionService.swift */,
+				AA001002AABB0001000AA001 /* AnalyticsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -137,6 +148,7 @@
 				07B0A4922F20B603004EB778 /* LoginViewModel.swift */,
 				07B0A4932F20B603004EB778 /* RegisterViewModel.swift */,
 				07B0A4942F20B603004EB778 /* TransactionViewModel.swift */,
+				AA001003AABB0001000AA001 /* AnalyticsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -283,6 +295,10 @@
 				07B0A4A82F20B774004EB778 /* RegisterViewModel.swift in Sources */,
 				07B0A4A92F20B774004EB778 /* TransactionViewModel.swift in Sources */,
 				07B0A4AA2F20B774004EB778 /* TransactionListView.swift in Sources */,
+				AA002001AABB0002000AA002 /* CategoryBreakdown.swift in Sources */,
+				AA002002AABB0002000AA002 /* AnalyticsService.swift in Sources */,
+				AA002003AABB0002000AA002 /* AnalyticsViewModel.swift in Sources */,
+				AA002004AABB0002000AA002 /* AnalyticsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

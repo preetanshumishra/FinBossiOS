@@ -41,4 +41,12 @@ final class DependencyContainer {
     func makeTransactionViewModel() -> TransactionViewModel {
         TransactionViewModel(transactionService: makeTransactionService())
     }
+
+    func makeAnalyticsService() -> AnalyticsService {
+        AnalyticsService(networkService: networkService)
+    }
+
+    func makeAnalyticsViewModel() -> AnalyticsViewModel {
+        AnalyticsViewModel(analyticsService: makeAnalyticsService())
+    }
 }
