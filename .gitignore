@@ -67,8 +67,6 @@ coverage/
 *.temp
 
 # Xcode specific
-*.xcodeproj/
-!*.xcodeproj/project.pbxproj
 *.xcconfig
 
 # fastlane
