@@ -2,7 +2,7 @@ import Foundation
 
 @MainActor
 final class NetworkService {
-    private let baseURL = "https://finbossapi-production.up.railway.app"
+    private let baseURL = "https://finbossapi-gx2r7kziwa-uc.a.run.app"
     private var accessToken: String? {
         KeychainManager.shared.retrieve(key: "accessToken")
     }
