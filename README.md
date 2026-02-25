@@ -122,7 +122,7 @@ This minimizes maintenance burden and reduces attack surface.
 ### Environment
 Configure the backend API URL in `Services/NetworkService.swift`:
 ```swift
-private let baseURL = "https://finbossapi-gx2r7kziwa-uc.a.run.app"
+private let baseURL = "https://finbossapi-618844932346.us-central1.run.app"
 ```
 
 For local development, change to:
