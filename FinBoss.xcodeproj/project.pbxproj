@@ -34,6 +34,7 @@
 		AA002002AABB0002000AA002 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001002AABB0001000AA001 /* AnalyticsService.swift */; };
 		AA002003AABB0002000AA002 /* AnalyticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001003AABB0001000AA001 /* AnalyticsViewModel.swift */; };
 		AA002004AABB0002000AA002 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001004AABB0001000AA001 /* AnalyticsView.swift */; };
+		FBAA0002FBAA0002FBAA0002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAA0001FBAA0001FBAA0001 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		07B0A4942F20B603004EB778 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
 		07B0A4962F20B603004EB778 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
 		07B0A4982F20B603004EB778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAA0001FBAA0001FBAA0001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07CC21D02F3450270010CE9E /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		07DAED102F3FCFCF008E361E /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		07DAED112F3FCFCF008E361E /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
@@ -173,7 +175,8 @@
 				07B0A4902F20B603004EB778 /* Utils */,
 				07B0A4952F20B603004EB778 /* ViewModels */,
 				07B0A4972F20B603004EB778 /* Views */,
-				07B0A4982F20B603004EB778 /* Info.plist */,
+				FBAA0001FBAA0001FBAA0001 /* Assets.xcassets */,
+			07B0A4982F20B603004EB778 /* Info.plist */,
 			);
 			path = FinBoss;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAA0002FBAA0002FBAA0002 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
